@@ -103,12 +103,21 @@ export default {
         cedula: this.User,
         contrasena: this.password,
       };
+
+      console.log(datos); // Verificar los datos que se envían
+
       try {
         const response = await axios.post(
-          `${backend_api}/usuario/login`,
-          datos
+          `${backend_api}/usuario/login`, // Asegúrate de que la URL es correcta
+          datos,
+          {
+            headers: {
+              "Content-Type": "application/json", // Especificar el tipo de contenido
+            },
+          }
         );
-        if (response.status === 201) {
+
+        if (response.status === 201 || response.status === 200) {
           console.log(response.data);
           if (response.data.admin === true) {
             const decodedToken = this.parseJwt(response.data.token);
@@ -120,6 +129,7 @@ export default {
           }
         }
       } catch (error) {
+        console.error("Error en el login:", error); // Log del error para depuración
         this.infodialog = true;
         this.alert = error.response?.data?.message || "Error desconocido";
       }

@@ -1,4 +1,4 @@
-import { registerPlugins } from './plugins/index'
+import { registerPlugins } from './plugins/'
 import { VDateInput } from 'vuetify/labs/VDateInput';
 import { VTimePicker } from 'vuetify/labs/components';
 

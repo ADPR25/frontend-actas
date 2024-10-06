@@ -12,7 +12,6 @@ import Gracias from '@/pages/gracias/firmada.vue';
 import error from '@/pages/error/error.vue';
 import CrearAsistente  from '@/pages/asistentes/create.vue';
 import editarActaPart1 from '@/pages/actas/editar/editarInfo.vue';
-import editarActaPart2 from '@/pages/actas/editar/editarcontenido.vue';
 
 
 export const RutasAdicionales = [

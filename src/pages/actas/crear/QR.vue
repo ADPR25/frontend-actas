@@ -9,7 +9,9 @@
       <v-card-title>
         <v-row class="d-flex justify-center align-center" no-gutters>
           <v-col cols="12" class="d-flex justify-center">
-            <div class="logo" />
+            <div class="logo">
+              <img src="../../../assets/logos/Logo.png" alt="">
+            </div>
           </v-col>
         </v-row>
       </v-card-title>
@@ -136,7 +138,7 @@ export default {
 .logo {
   width: 70%;
   height: 250px;
-  background-image: url("@/assets/logos/Logo.png");
+  background-image: url("@/assets/logos/logo.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

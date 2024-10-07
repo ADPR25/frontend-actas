@@ -128,7 +128,7 @@ export default {
 .logo {
   width: 70%;
   height: 250px;
-  background-image: url("@/assets/logos/Logo.png");
+  background-image: url("@/assets/logos/logo.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

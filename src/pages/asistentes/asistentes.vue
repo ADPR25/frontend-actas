@@ -10,7 +10,7 @@
         <v-card-text>
           <v-row>
             <v-col cols="12" sm="3" class="d-flex justify-center">
-              <img src="@/assets/logos/Logo.png" width="80%" />
+              <img src="@/assets/logos/logo.png" width="80%" />
             </v-col>
             <v-col cols="12" sm="3" class="d-flex justify-center">
               <h2 style="font-size: 1.5rem; font-weight: bold">

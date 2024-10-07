@@ -349,7 +349,7 @@ export default {
           headers: { Authorization: `Bearer ${Token}` },
         });
         localStorage.setItem("ActaGenerate", JSON.stringify(response.data));
-        window.location.href = "/create-acta-part-2";
+        window.location.href = "/create/acta/part-2";
       } catch (error) {
         console.error(
           "Error al guardar el acta",

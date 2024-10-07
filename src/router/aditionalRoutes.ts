@@ -20,23 +20,23 @@ export const RutasAdicionales = [
     component: Acciones,
   },
   {
-    path: "/create-acta",
+    path: "/create/acta",
     component: createActa,
   },
   {
-    path: "/create-acta-part-2",
+    path: "/create/acta/part-2",
     component: createActa2,
   },
   {
-    path: "/listado-actas",
+    path: "/listado/actas",
     component: listadoActas,
   },
   {
-    path: "/listado-asistentes",
+    path: "/listado/asistentes",
     component: listAsistentes,
   },
   {
-    path: '/qr-code',
+    path: '/qr/code',
     component: qrView,
   },
   {
@@ -44,7 +44,7 @@ export const RutasAdicionales = [
     component: error,
   },
   {
-    path: '/acta-response/:codigo',
+    path: '/acta/response/:codigo',
     component: resposeActa,
   },
   {
@@ -52,7 +52,7 @@ export const RutasAdicionales = [
     component: ActaExist,
   },
   {
-    path: '/user-no-exist/:codigo',
+    path: '/user/inexist/:codigo',
     component: ActaNExist,
   },
   {

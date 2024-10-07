@@ -19,14 +19,14 @@ declare module 'vue-router/auto-routes' {
    */
   export interface RouteNamedMap {
     '/acciones/acciones': RouteRecordInfo<'/acciones/acciones', '/acciones/acciones', Record<never, never>, Record<never, never>>,
-    '/actas/crear/crear-acta': RouteRecordInfo<'/actas/crear/crear-acta', '/actas/crear/crear-acta', Record<never, never>, Record<never, never>>,
-    '/actas/crear/crear-acta-extend': RouteRecordInfo<'/actas/crear/crear-acta-extend', '/actas/crear/crear-acta-extend', Record<never, never>, Record<never, never>>,
+    '/actas/crear/crearacta': RouteRecordInfo<'/actas/crear/crearacta', '/actas/crear/crearacta', Record<never, never>, Record<never, never>>,
+    '/actas/crear/crearactaextend': RouteRecordInfo<'/actas/crear/crearactaextend', '/actas/crear/crearactaextend', Record<never, never>, Record<never, never>>,
     '/actas/crear/QR': RouteRecordInfo<'/actas/crear/QR', '/actas/crear/QR', Record<never, never>, Record<never, never>>,
     '/actas/editar/editarInfo': RouteRecordInfo<'/actas/editar/editarInfo', '/actas/editar/editarInfo', Record<never, never>, Record<never, never>>,
     '/actas/listar/lista': RouteRecordInfo<'/actas/listar/lista', '/actas/listar/lista', Record<never, never>, Record<never, never>>,
     '/actas/response/response': RouteRecordInfo<'/actas/response/response', '/actas/response/response', Record<never, never>, Record<never, never>>,
-    '/actas/response/user-existent': RouteRecordInfo<'/actas/response/user-existent', '/actas/response/user-existent', Record<never, never>, Record<never, never>>,
-    '/actas/response/user-Inexist': RouteRecordInfo<'/actas/response/user-Inexist', '/actas/response/user-Inexist', Record<never, never>, Record<never, never>>,
+    '/actas/response/userexistent': RouteRecordInfo<'/actas/response/userexistent', '/actas/response/userexistent', Record<never, never>, Record<never, never>>,
+    '/actas/response/userInexist': RouteRecordInfo<'/actas/response/userInexist', '/actas/response/userInexist', Record<never, never>, Record<never, never>>,
     '/asistentes/asistentes': RouteRecordInfo<'/asistentes/asistentes', '/asistentes/asistentes', Record<never, never>, Record<never, never>>,
     '/asistentes/create': RouteRecordInfo<'/asistentes/create', '/asistentes/create', Record<never, never>, Record<never, never>>,
     '/auth/login': RouteRecordInfo<'/auth/login', '/auth/login', Record<never, never>, Record<never, never>>,

@@ -286,7 +286,7 @@ export default {
       this.$refs.signaturePad.clear();
     },
     cerrarTodo() {
-      window.location.href = "/qr-code";
+      window.location.href = "/qr/code";
     },
   },
   computed: {

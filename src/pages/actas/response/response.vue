@@ -85,13 +85,13 @@ export default {
       } catch {
         const currentUrl = window.location.pathname;
         const codigo = currentUrl.split("/acta-response/")[1];
-        window.location.href = `/user-no-exist/${codigo}`;
+        window.location.href = `/user/inexist/${codigo}`;
       }
     },
     async validar() {
       try {
         const currentUrl = window.location.pathname;
-        const codigo = currentUrl.split("/acta-response/")[1];
+        const codigo = currentUrl.split("/acta/response/")[1];
         this.acta = codigo;
         const response = await axios.get(
           `${backend_api}/actas/validar/${codigo}`

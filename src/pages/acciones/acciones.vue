@@ -9,13 +9,13 @@
           <v-card-text>
             <v-row>
               <v-col cols="12" class="d-flex justify-center align-center">
-                <v-btn href="/create-acta" class="btn-color">Nueva acta</v-btn>
+                <v-btn href="/create/acta" class="btn-color">Nueva acta</v-btn>
               </v-col>
               <v-col cols="12" class="d-flex justify-center align-center">
-                <v-btn href="/listado-actas" class="btn-color">Listado de actas</v-btn>
+                <v-btn href="/listado/actas" class="btn-color">Listado de actas</v-btn>
               </v-col>
               <v-col cols="12" class="d-flex justify-center align-center">
-                <v-btn href="/listado-asistentes" class="btn-color">Listado de asistentes</v-btn>
+                <v-btn href="/listado/asistentes" class="btn-color">Listado de asistentes</v-btn>
               </v-col>
             </v-row>
           </v-card-text>
